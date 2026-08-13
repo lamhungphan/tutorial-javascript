@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #countLabel {
+            display: block;
+            text-align: center;
+            font-size: 8cm;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        #btnContainer {
+            text-align: center;
+        }
+
+        .buttons {
+            padding: 10px 20px;
+            font-size: 1.5em;
+            color: white;
+            background-color: rgb(40, 136, 245);
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.25s;
+        }
+
+        .buttons:hover {
+            background-color: rgba(40, 136, 245, 0.616);
+            ;
+        }
+    </style>
+</head>
+
+<body>
+    <label id="countLabel">0</label><br>
+    <div id="btnContainer">
+        <button id="decreaseBtn" class="buttons">decrease</button>
+        <button id="resetBtn" class="buttons">reset</button>
+        <button id="increaseBtn" class="buttons">increase</button>
+    </div>
+    <script src="../javascript/7-CounterProgram.js"></script>
+
+</body>
+
+</html>
